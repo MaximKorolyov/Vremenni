@@ -1,0 +1,46 @@
+.for-participants {
+    width: 831px;
+    height: 138px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color: #ffffff;
+    margin-top: 20px;
+
+    &__title {
+        font-family: "Roboto Flex", sans-serif;
+        font-size: 16px;
+        color: #000;
+        font-weight: bold;
+        margin-bottom: 20px;
+        margin-left: 22px;
+    }
+    
+    &__links-container {
+        width: 787px;
+        height: 53px;
+        margin-left: 22px;
+        margin-right: 22px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__links-column {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        margin-top: 28px;
+    }
+
+    &__link {
+        font-family: "Roboto Flex", sans-serif;
+        font-size: 14px;
+        color: #000;
+        font-weight: medium;
+        margin-bottom: 20px;
+        text-decoration: none;
+    }
+}

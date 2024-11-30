@@ -1,0 +1,24 @@
+.container {
+  background-color: #bc2112;
+  padding: 15px 102px;
+}
+.list {
+  display: flex;
+  justify-content: space-between;
+
+  .deploy {
+    background: url("../../../../public/pattern/Frame-bottom.svg") right/auto
+      100% no-repeat;
+    padding-right: 30px;
+    padding-bottom: 2px;
+  }
+
+  a {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+}

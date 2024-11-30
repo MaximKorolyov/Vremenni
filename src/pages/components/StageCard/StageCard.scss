@@ -1,0 +1,45 @@
+.stage-card {
+    width: 249px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border-radius: 8px;
+    background-color: #fee5d6;
+
+    &__red-line {
+        width: 100%;
+        height: 10px;
+        background-color: #e22f14;
+        border-radius: 8px 8px 0 0;
+    }
+
+    &__stage-number {
+        width: 40px;
+        height: 40px;
+        margin: 10px 20px 12px 20px;
+    }
+
+    &__title {
+        font-family: "Roboto Flex", sans-serif;
+        font-size: 14px;
+        color: #e22f14;
+        font-weight: bold;
+        margin: 12px 20px;
+    }
+
+    &__dates {
+        font-family: "Roboto Flex", sans-serif;
+        font-size: 14px;
+        color: #781b16;
+        margin-left: 20px;
+    }
+
+    &__desc {
+        font-family: "Roboto Flex", sans-serif;
+        font-size: 14px;
+        color: #410909;
+        margin: 0 20px;
+    }
+}

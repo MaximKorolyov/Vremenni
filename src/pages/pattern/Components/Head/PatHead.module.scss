@@ -1,0 +1,51 @@
+.container {
+  background: url("../../../../public/pattern/background.png") fixed no-repeat;
+
+  padding: 20px;
+}
+
+.blur_block {
+  padding: 18px 82px;
+
+  backdrop-filter: blur(5px);
+  border-radius: 30px;
+
+  font-size: 20px;
+
+  display: flex;
+  flex-direction: column;
+  row-gap: 268px;
+}
+
+.block_in_right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.info_block {
+  max-width: 339px;
+
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  align-items: flex-end;
+
+  .info_logo {
+  }
+  .info_text {
+    text-transform: uppercase;
+    text-align: right;
+
+    font-weight: 400;
+  }
+  .info_btn {
+    padding: 10px 20px;
+
+    border: 3px #2b2b2b solid;
+    border-radius: 20px;
+
+    // display: inline-block;
+
+    max-width: 235px;
+  }
+}

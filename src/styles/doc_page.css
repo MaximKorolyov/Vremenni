@@ -1,0 +1,159 @@
+
+.documents-page {
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: #dee0e0;
+  border-radius: 25px;
+}
+
+.background {
+  background-image: url('./../../public/Rectangle30.png'); /* Укажите путь к изображению */
+  background-repeat: repeat; /* Повторяем изображение по всей площади */
+  background-size: auto; /* Или вы можете использовать "auto" или "contain"/"cover" в зависимости от ваших нужд */
+  height: 100vh; /* Задаем высоту блока, например, на весь экран */
+  width: 100%; /* Задаем ширину блока */
+  display: flex; /* Можно использовать flexbox для размещения содержимого */
+  justify-content: center; /* Центрируем содержимое по горизонтали */
+  align-items: center; /* Центрируем содержимое по вертикали */
+}
+
+
+.hhhh {
+  font-size: 24px;
+  margin-left: 20px;
+  padding-bottom: 60px;
+  padding-top: 30px;
+  font-weight: bold;
+}
+
+.documents-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.document:hover {
+  background-color: #ddd;
+}
+
+.document {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  border: 1px solid #000;
+  border-radius: 20px;
+  margin-bottom: 30px;
+  background-color: #fff;
+}
+
+
+.document3 {
+  padding: 5px;
+  border: 1px solid #000;
+  border-radius: 20px;
+  background-color: #fff;
+  margin-bottom: 30px;
+}
+
+
+.document2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.left-side img {
+  width: 34px;
+  height: 34px;
+  margin-left: 20px;
+}
+
+.document-info {
+  display: flex;
+  flex-direction: column;
+}
+/* !!!!!!!!!!!!! */
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.file-info {
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.left-side {
+  display: flex;
+  align-items: center;
+}
+
+.right-side {
+  text-align: right;
+  margin-right: 20px;
+}
+/* !!!!!!!!!!!!!!!!! */
+
+.document-name {
+  font-weight: bold;
+}
+
+.document-details {
+  color: #666;
+}
+
+.archive-button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  border: none;
+  background-color: #eee;
+  border-radius: 5px;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.strelka {
+  font-size: 28px;
+}
+
+.archive-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border: 1px solid #000;
+  border-radius: 20px;
+  /* margin-bottom: 30px; */
+  margin-top: 5px;
+  background-color: #fff;
+}
+
+.archive-button:hover {
+  background-color: #ddd;
+}
+
+.years {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.years > div {
+  font-weight: bold;
+}
+
+.redline{
+  padding-left: 28px;
+  width: 950px;
+}

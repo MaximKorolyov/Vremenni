@@ -1,0 +1,51 @@
+export const AddInfo = [
+  {
+    id: 17,
+    name: "Фамилия родителя/опекуна",
+    tp: "text",
+    pcholder: "Иванов",
+    required: false,
+  },
+  {
+    id: 18,
+    name: "Имя родителя/опекуна",
+    tp: "text",
+    pcholder: "Иван",
+    required: true,
+  },
+  {
+    id: 19,
+    name: "Отчество родителя/опекуна",
+    tp: "text",
+    pcholder: "Иванович",
+    required: true,
+  },
+  {
+    id: 20,
+    name: "Номер телефона родителя/опекуна",
+    tp: "text",
+    pcholder: "+7(___)-___-__-__",
+    required: true,
+  },
+  {
+    id: 21,
+    name: "Почта родителя/опекуна",
+    tp: "email",
+    pcholder: "example@gmail.com",
+    required: true,
+  },
+  {
+    id: 22,
+    name: "Занимали ли призовые места в прошлых олимпиадах?",
+    tp: "text",
+    pcholder: " ",
+    required: false,
+  },
+  {
+    id: 23,
+    name: "Особенности и потребности",
+    tp: "text",
+    pcholder: " ",
+    required: false,
+  },
+];

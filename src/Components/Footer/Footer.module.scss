@@ -1,0 +1,32 @@
+.container {
+    padding: 26px 122px;
+    background-color: #bc2112;
+  
+    color: white;
+  
+    .communication {
+      padding-bottom: 40px;
+  
+      ul {
+        display: flex;
+        column-gap: 56px;
+      }
+      li {
+        font-family: "Roboto Flex", sans-serif;
+        font-weight: bold;
+        font-size: 16px;
+        span {
+          text-decoration: underline;
+        }
+      }
+    }
+    .sponsors {
+      ul {
+        display: flex;
+        justify-content: space-between;
+      }
+      li {
+        height: 70px;
+      }
+    }
+  }

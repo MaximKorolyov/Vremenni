@@ -1,0 +1,50 @@
+@mixin for-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.head {
+  background-color: #e22f14;
+}
+.container {
+  padding: 16px 122px;
+  @include for-flex();
+
+  color: #ffffff;
+  font-family: "Roboto Flex", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.project_status {
+  span {
+    font-weight: 700;
+  }
+}
+
+.info {
+  @include for-flex();
+  column-gap: 42px;
+
+  .feedback {
+    @include for-flex();
+    column-gap: 26px;
+  }
+
+  .login {
+    @include for-flex();
+    column-gap: 5px;
+
+    .btn {
+      margin: -16px 0px;
+      color: #ffffff;
+      padding: 16px;
+      background-color: #f1481e;
+
+      &:hover {
+        background-color: #f28f77;
+      }
+    }
+  }
+}

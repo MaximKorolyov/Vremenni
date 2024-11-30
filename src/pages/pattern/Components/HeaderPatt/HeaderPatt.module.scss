@@ -1,0 +1,41 @@
+@mixin for-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container {
+  padding: 16px 122px;
+  @include for-flex();
+  // color: #ffffff;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.project_status {
+  .not_bold {
+    font-weight: 400;
+  }
+}
+
+.info {
+  @include for-flex();
+  column-gap: 42px;
+
+  .feedback {
+    @include for-flex();
+    column-gap: 26px;
+  }
+
+  .login {
+    @include for-flex();
+    column-gap: 5px;
+
+    .btn {
+      margin: -16px 0px;
+
+      padding: 16px;
+      font-weight: 700;
+    }
+  }
+}

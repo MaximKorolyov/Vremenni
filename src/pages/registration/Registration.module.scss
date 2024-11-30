@@ -1,0 +1,32 @@
+.big_back {
+  background: radial-gradient(
+    closest-side,
+    rgba(226, 52, 26, 0.4),
+    rgba(251, 199, 173, 0.4),
+    rgba(226, 52, 26, 0.322),
+    rgba(254, 244, 238, 0.4)
+  );
+}
+
+.back_layer {
+  background: url("../../../fuback.png") round space;
+
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+
+    padding-top: 30px;
+    font-family: "Roboto Flex", sans-serif;
+
+    .header_h3 {
+      font-weight: 500;
+      font-size: 30px;
+
+      padding-bottom: 30px;
+    }
+  }
+}
+
+.nav {
+  padding: 30px 0;
+}
