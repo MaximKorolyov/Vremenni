@@ -38,18 +38,19 @@
     flex-direction: row;
     align-content: center;
     justify-content: space-between;
-    
+    padding: 25px;
 }
 
 .main-block {
+    
     width: 831px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: initial; /* Или установите нужные вам значения */
-    margin: initial;
-    border: initial;
+    
+
+    
 }
 
 .info-block {
@@ -106,6 +107,7 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
+    margin-left: 20px;
 
     &__ad {
         width: 100%;
@@ -131,8 +133,8 @@
     align-items: flex-start;
     justify-content: center;
     background-color: #ffffff;
-    padding: 0px 30px 10px 30px;
-
+    padding: 30px 30px 10px 30px;
+   
     &__head-of-list {
         width: 100%;
         display: flex;
@@ -147,6 +149,7 @@
         font-size: 14px;
         color: #000;
         font-weight: bold;
+        padding: 15px;
     }
 
     &__list {

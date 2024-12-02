@@ -5,6 +5,8 @@ import { Registration } from "./pages/registration/Registration";
 import { ArchDocPageRoute } from "./pages/archive_documents/ArchDocPage";
 import { DocumentPageRoute } from "./pages/documents/DocPage";
 import { MainPageRoute } from "./pages/components/MainPage";
+import { OrganizatorsRoute } from "./pages/Organizators/Org";
+import { PartnersRoute } from "./pages/Partners/Part";
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
         <Route path="/head" element={<Header />} /> */}
         <Route path="/archive_documents" element={<ArchDocPageRoute/>} />
         <Route path="/documents" element={<DocumentPageRoute/>} />
+        <Route path="/Organizators" element={<OrganizatorsRoute/>} />
+        <Route path="/Partners" element={<PartnersRoute/>} />
         
       </Routes>
     </Router>

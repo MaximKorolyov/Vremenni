@@ -82,39 +82,23 @@ const AsideMenu = () => (
     <div class="main-container__aside aside">
         <div class="aside__menu menu">
             <div class="menu__head-of-list">
-                <p class="menu__title">Документы</p>
-                <img src={vector} alt="" class="menu__img" /> 
+                <Link to="/documents"><p class="menu__title">Документы</p></Link>
             </div>
-            <ul class="menu__list">
-                <li class="menu__item menu__item_first"><a href="" class="menu__link">Регламент</a></li>
-                <li class="menu__item"><a href="" class="menu__link">Положение</a></li>
-                <li class="menu__item"><a href="" class="menu__link">Орагнизационно-методическое положение</a></li>
-                <li class="menu__item"><a href="" class="menu__link">Календарный план</a></li>
-            </ul>
             <div class="menu__head-of-list">
-                <p class="menu__title">Общая информация</p>
-                <img src={vector} alt="" class="menu__img" />
+                <p class="menu__title">Участникам</p>
             </div>
-            <ul class="menu__list">
-                <li class="menu__item menu__item_first"><a href="" class="menu__link">Льготы при поступлении</a></li>
-                <li class="menu__item"><a href="" class="menu__link">Развитие проекта</a></li>
-                <li class="menu__item"><a href="" class="menu__link">История</a></li>
-                <li class="menu__item"><a href="" class="menu__link">Благодарности</a></li>
-                <li class="menu__item"><a href="" class="menu__link">География</a></li>
-                <li class="menu__item"><a href="" class="menu__link">Отзывы</a></li>
-            </ul>
             <div class="menu__head-of-list">
-                <p class="menu__title">Подготовка</p>
-                <img src={vector} alt="" class="menu__img" />
+                <p class="menu__title">Новости</p>
             </div>
-            <ul class="menu__list">
-                <li class="menu__item menu__item_first"><a href="" class="menu__link">Учебно-методические материалы</a></li>
-                <li class="menu__item"><Link to="/documents" class="menu__link">Документы</Link></li>
-                <li class="menu__item"><a href="" class="menu__link">Олимпиады прошлых лет</a></li>
-            </ul>
-            <a href="" class="menu__link_bold">Для спонсоров</a>
-            <a href="" class="menu__link_bold">Партнеры</a>
-            <a href="" class="menu__link_bold menu__link_bold_last">Организаторы</a>
+            <div class="menu__head-of-list">
+              <p class="menu__title">Контакты</p>
+            </div>
+            <div class="menu__head-of-list">
+            <Link to="/partners"><p class="menu__title">Партнеры</p></Link>
+            </div>
+            <div class="menu__head-of-list">
+            <Link to="/organizators"><p class="menu__title">Организаторы</p></Link>
+            </div>
         </div>
         <div class="aside__ad">
             <a href="" class="aside__link"><img src={AD1} alt="" class="aside__img" /></a>

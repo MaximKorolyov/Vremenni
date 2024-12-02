@@ -19,10 +19,10 @@ export function RedHeader() {
             <a href="#">Для спонсоров</a>
           </li>
           <li>
-            <a href="#">Партнёры</a>
+          <Link to="/partners">Партнёры</Link>
           </li>
           <li>
-            <a href="#">Организаторы</a>
+          <Link to="/organizators">Организаторы</Link>
           </li>
         </ul>
       </div>

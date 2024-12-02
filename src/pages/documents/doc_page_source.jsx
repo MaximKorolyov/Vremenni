@@ -34,7 +34,7 @@ export const DocumentsPage = () => {
   ];
 
   return (
-
+    <div className="main-part">
     <div className="documents-page">
       <h1 class="hhhh">Документы</h1>
       <div className="documents-list">
@@ -55,6 +55,6 @@ export const DocumentsPage = () => {
         </Link>
       </div>
     </div>
-    
+    </div>
   );
 };

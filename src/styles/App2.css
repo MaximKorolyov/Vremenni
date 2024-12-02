@@ -1,0 +1,118 @@
+.main-part {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: url('../../public/Rectangle30.png'),   rgba(245,121,81,0.2);;
+    background-repeat: repeat;
+    background-size: 20%;
+
+}
+
+.documents-page {
+    max-width: 1200px;
+    padding: 30px;
+    padding-bottom: 50px;
+    margin-bottom: 40px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+
+
+.title {
+    color: #d84b45;
+    font-size: 24px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+.image_container {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 1px;
+
+}
+
+.image_container2 {
+    display: flex;
+    justify-content: center;
+    gap: 1px;
+
+}
+
+
+.image_item {
+    width: 450px;
+    height: 190px;
+}
+
+.image_item_2 {
+    width: 450px;
+    height: 300px;
+    
+    vertical-align: top;
+    
+}
+
+
+
+
+.image_item p {
+    max-width: 300px;
+    
+}
+
+.inner-container {
+    display: flex;
+    flex-direction: column; /* Располагаем элементы в вертикальном порядке */
+    align-items: center; /* Центрируем контент по горизонтали */
+    
+  }
+
+
+.table-style {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+.td-style {
+    border: 1px solid transparent;
+    text-align: center;
+}
+
+.td-style2 {
+    height: 200px;
+    border: 1px solid transparent;
+    text-align: center;
+}
+
+.td-style3 {
+    height: 200px;
+    border: 1px solid transparent;
+    text-align: center;
+}
+
+
+.td-style:not(:last-child) {
+    border-right: 1px solid  rgba(255, 0, 0, 0.2);
+    
+}
+
+.tr-style:not(:last-child) td {
+    border-bottom: 1px solid rgba(255, 0, 0, 0.2);
+}
+
+.td-style2:not(:last-child) {
+    border-right: 1px solid  rgba(255, 0, 0, 0.2);
+    border-bottom: 1px solid  rgba(255, 0, 0, 0.2);
+}
+
+.td-style2:last-child {
+    border-bottom: 1px solid  rgba(255, 0, 0, 0.2);
+}
+
+.td-style3:last-child {
+    border-right: 1px solid  rgba(255, 0, 0, 0.2);
+    border-left: 1px solid  rgba(255, 0, 0, 0.2);
+}

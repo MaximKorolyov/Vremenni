@@ -10,12 +10,12 @@ export function PatHead() {
           <HeaderPatt />
           <div className={styles.block_in_right}>
             <div className={styles.info_block}>
-              <img
+              <Link to="/"><img
                 className={styles.info_logo}
                 src="../../../../public/pattern/Logo.png"
                 alt="#"
                 height={85}
-              ></img>
+              ></img></Link>
               <div className={styles.info_text}>
                 ВСЕРОССИЙСКАЯ ОЛИМПИАДА ПО ФИНАНСОВОЙ ГРАМОТНОСТИ
               </div>

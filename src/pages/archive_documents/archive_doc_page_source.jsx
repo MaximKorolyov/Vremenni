@@ -9,6 +9,7 @@ const AccordionItem = ({ year, documents }) => {
   };
 
   return (
+    
     <div className="document3">
       <div
         className="document2"
@@ -105,6 +106,7 @@ export const ArchDocPage = () => {
   ];
 
   return (
+    <div className="main-part">
     <div className="documents-page">
       <h1 className='hhhh'>Архив олимпиад прошлых лет</h1>
       <div className="years">
@@ -121,6 +123,7 @@ export const ArchDocPage = () => {
           <AccordionItem key={index} year={item.year} documents={item.documents} />
         ))}
       </div>
+    </div>
     </div>
   );
 };
