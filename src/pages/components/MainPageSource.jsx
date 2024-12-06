@@ -81,23 +81,29 @@ export const YourComponent = () => {
 const AsideMenu = () => (
     <div class="main-container__aside aside">
         <div class="aside__menu menu">
+          <div class="menu__head-of-list">
+                <p class="menu__title">Новости</p>
+            </div>
+            <div class="menu__head-of-list">
+            <Link to="/Contacts"><p class="menu__title">Контакты</p></Link>
+            </div>
             <div class="menu__head-of-list">
                 <Link to="/documents"><p class="menu__title">Документы</p></Link>
             </div>
             <div class="menu__head-of-list">
+                <p class="menu__title">Выпросы и ответы</p>
+            </div>
+            <div class="menu__head-of-list">
                 <p class="menu__title">Участникам</p>
-            </div>
-            <div class="menu__head-of-list">
-                <p class="menu__title">Новости</p>
-            </div>
-            <div class="menu__head-of-list">
-              <p class="menu__title">Контакты</p>
             </div>
             <div class="menu__head-of-list">
             <Link to="/partners"><p class="menu__title">Партнеры</p></Link>
             </div>
             <div class="menu__head-of-list">
             <Link to="/organizators"><p class="menu__title">Организаторы</p></Link>
+            </div>
+            <div class="menu__head-of-list">
+                <p class="menu__title">Этапы проведения</p>
             </div>
         </div>
         <div class="aside__ad">

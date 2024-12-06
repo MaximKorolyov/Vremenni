@@ -7,6 +7,7 @@ import { DocumentPageRoute } from "./pages/documents/DocPage";
 import { MainPageRoute } from "./pages/components/MainPage";
 import { OrganizatorsRoute } from "./pages/Organizators/Org";
 import { PartnersRoute } from "./pages/Partners/Part";
+import { ContactPageRoute } from "./pages/Contacts/ContactPage"
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route path="/documents" element={<DocumentPageRoute/>} />
         <Route path="/Organizators" element={<OrganizatorsRoute/>} />
         <Route path="/Partners" element={<PartnersRoute/>} />
+        <Route path="/Contacts" element={<ContactPageRoute/>} />
         
       </Routes>
     </Router>

@@ -4,7 +4,7 @@
     background: url('../../public/Rectangle30.png'),   rgba(245,121,81,0.2);;
     background-repeat: repeat;
     background-size: 20%;
-
+    font-family: "Roboto Flex", sans-serif;
 }
 
 .documents-page {
