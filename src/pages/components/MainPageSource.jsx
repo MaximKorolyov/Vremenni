@@ -91,7 +91,7 @@ const AsideMenu = () => (
                 <Link to="/documents"><p class="menu__title">Документы</p></Link>
             </div>
             <div class="menu__head-of-list">
-                <p class="menu__title">Выпросы и ответы</p>
+            <Link to="/Qapage"><p class="menu__title">Выпросы и ответы</p></Link>
             </div>
             <div class="menu__head-of-list">
                 <p class="menu__title">Участникам</p>
