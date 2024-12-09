@@ -1,0 +1,45 @@
+.big_container {
+  padding: 40px 102px;
+}
+
+.ask_group {
+  padding: 32px 0;
+}
+
+.container {
+  background-color: white;
+
+  border-radius: 30px;
+  padding: 48px 54px;
+
+  font-family: "Roboto Flex", sans-serif;
+
+  h3 {
+    font-weight: 700;
+    font-size: 30px;
+    color: #bc2112;
+
+    padding-bottom: 28px;
+  }
+
+  h2 {
+    font-weight: 700;
+    font-size: 26px;
+    color: #111111;
+
+    padding-bottom: 28px;
+  }
+
+  span {
+    font-size: 20px;
+    color: #111111;
+
+    padding-left: 20px;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+}
